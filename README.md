@@ -19,6 +19,8 @@ A place to record useful knowlege links and documents related to my research
 
 ### Lattice based key exchange
 
-### FHE
-
 ## Secure Aggregation
+
+### Awesome links
+[[Awesome HE]](https://github.com/jonaschn/awesome-he)
+[[Awesome MPC]](https://github.com/rdragos/awesome-mpc)
