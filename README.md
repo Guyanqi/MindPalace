@@ -3,7 +3,7 @@ A place to record useful knowlege links and documents related to my research
 
 # PhD Work
 ## PAKE
-EKE by Bellovin&Merritt 
+Encryptedr Key Exchange(EKE) by Bellovin&Merritt 
 [[paper]](https://www.cs.columbia.edu/~smb/papers/neke.pdf)  
 Simple Password-Based Encrypted Key   Exchange Protocols 
 [[paper]](https://www.di.ens.fr/~mabdalla/papers/AbPo05a-letter.pdf)  
@@ -32,7 +32,7 @@ HMQV
 X3DH
 [[paper]](https://signal.org/docs/specifications/x3dh/)
 
-### Lattice KEM
+## Lattice KEM
 #### Saber
 #### Classic McEliese
 
@@ -44,7 +44,8 @@ A modular analysis of the fujisakiokamoto transformation
 
 
 ## Secure Aggregation
-
+LightSecAgg
+[[paper]](https://arxiv.org/pdf/2109.14236.pdf)
 
 
 
