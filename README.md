@@ -32,7 +32,19 @@ X3DH
 [[paper]](https://signal.org/docs/specifications/x3dh/)
 
 ## Lattice KEM
-#### Saber
+#### Saber 
+[[website]]()
+[[paper]](https://eprint.iacr.org/2018/230.pdf) 
+[[PhD Thesis]](https://www.esat.kuleuven.be/cosic/publications/thesis-398.pdf)
+#### Kyber 
+[[website]]()
+[[paper]]()
+[[video]](https://www.youtube.com/watch?v=YsnmYl7BsgY)
+
+#### FredoKEM
+[[website]](https://frodokem.org/#spec)
+[[paper]]()
+
 #### Classic McEliese
 
 
