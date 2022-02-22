@@ -1,14 +1,57 @@
-# MindPalace
-A place to record useful knowlege links and documents related to my research 
-
-# PhD Work
+# Related Work
 ## PAKE
-Encrypted Key Exchange(EKE) by Bellovin&Merritt 
+Encrypted Key Exchange(EKE). Bellovin&Merritt 
 [[paper]](https://www.cs.columbia.edu/~smb/papers/neke.pdf)  
 Simple Password-Based Encrypted Key   Exchange Protocols 
-[[paper]](https://www.di.ens.fr/~mabdalla/papers/AbPo05a-letter.pdf)  
-Simple Password-Based Encrypted Key Exchange Protocols 
 [[paper]](https://eprint.iacr.org/2005/196.pdf)
+Authenticated key exchange secure against dictionary attacks. BPP00
+[[paper]](https://eprint.iacr.org/2000/014.pdf) first provable secure PAKE protocol. Secure in ROM.
+Session-Key Generation using Human Passwords Only. Goldreich and Lindell.
+[[paper]](https://eprint.iacr.org/2000/057.pdf)
+the first construction without ROM, based on general assumptions.
+
+### Lattice PAKE
+Smooth projective hashing and password-based authenticated key exchange
+from lattices.
+KV09. 
+[[paper]](https://www.cs.umd.edu/~jkatz/papers/lattice-PAK.pdf)  
+First lattice PAKE protocol. Alice and Bob
+first send a CCA-secure ciphertext to each other. Then, they try to compute approximate smooth
+projective hashing (ASPH) values on the ciphertexts and conduct a key reconciliation to derive a
+session key. Their key reconciliation mechanism consists of two steps: the first step aims to extract
+a bit from the ASPH value which is slightly noisy, while the second step is dedicated to correct the
+error using error-correcting code (ECC). This mechanism is relatively inefficient as it can extract
+at most one bit per field element. 
+
+A new framework for efficient password-based authenticated key exchange. GK
+[[paper]](https://eprint.iacr.org/2010/147.pdf)
+
+Efficient password authenticated key exchange
+via oblivious transfer. Ran Canetti
+, Dana Dachman-Soled, Vinod Vaikuntanathan, and Hoeteck Wee.
+[[paper]](https://user.eng.umd.edu/~danadach/MyPapers/pake.pdf)
+
+Hash Proof Systems over Lattices Revisited. Fabrice Benhamouda
+, Olivier Blazy
+, Léo Ducas
+, and Willy Quach
+[[paper]](https://eprint.iacr.org/2017/997.pdf)
+
+Two-Round PAKE from Approximate SPH
+and Instantiations from Lattices.Zhang and Yu.
+[[paper]](https://eprint.iacr.org/2017/838.pdf)
+a new ASPH built on a “splittable CCA-secure encryption”. Realization in ROM.
+
+Provably secure password authenticated key exchange
+based on RLWE for the post-quantum world
+Ding et al. 
+[[paper]](https://eprint.iacr.org/2016/552.pdf)
+The idea is to authenticate the lattice Diffie-Hellman using the random oracle protected password. ROM-based. Security claim in BPP. 3 round for Explicit Authenticationa and 2 round implicit. LWE and RLWE.
+
+
+PAKEs: New Framework, New Techniques and More Efficient
+Lattice-Based Constructions in the Standard Model
+[[paper]](https://eprint.iacr.org/2020/140.pdf)
 
 ## aPAKE
 OPAQUE
